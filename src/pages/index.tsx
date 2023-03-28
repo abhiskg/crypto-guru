@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Hero from "~/sections/homepage/Hero";
+import { Investor } from "~/sections/homepage/Investor";
 
 const Home: NextPage = () => {
   return (
@@ -11,8 +12,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-
         <Hero />
+        <Investor />
       </main>
     </>
   );
