@@ -1,6 +1,7 @@
 import React from "react";
 import { BrandCard } from "~/components/cards/BrandCard";
-import { brandData } from "~/utils/data";
+import { ProductCard } from "~/components/cards/ProductCard";
+import { brandData, productData } from "~/utils/data";
 
 function Brand() {
   return (
@@ -13,6 +14,18 @@ function Brand() {
             imgSrc={imgSrc}
             alt={brandName}
             brandName={brandName}
+          />
+        ))}
+      </div>
+
+      <div className="grid grid-cols-4 gap-4">
+        {productData.map(({ productName, id, imgSrc, price }) => (
+          <ProductCard
+            key={id}
+            imgSrc={imgSrc}
+            alt={productName}
+            productName={productName}
+            price={price}
           />
         ))}
       </div>
