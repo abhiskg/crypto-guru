@@ -4,6 +4,7 @@ import Brand from "~/sections/homepage/Brand";
 import Hero from "~/sections/homepage/Hero";
 import { Hosting } from "~/sections/homepage/Hosting";
 import { Investor } from "~/sections/homepage/Investor";
+import { Newsletter } from "~/sections/homepage/Newsletter";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <Brand />
         <Investor />
         <Hosting />
+        <Newsletter />
       </main>
     </>
   );
