@@ -57,3 +57,30 @@ export const productData = [
     price: 8000.0,
   },
 ];
+
+export const blogData = [
+  {
+    id: "1",
+    imgSrc: "/images/blog/blog-1.png",
+    date: "February 9, 2021",
+    title: "Top Cryptocurrency Mining Hardware In 2021",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+  },
+  {
+    id: "2",
+    imgSrc: "/images/blog/blog-2.png",
+    date: "February 9, 2021",
+    title: "Top Cryptocurrency Mining Hardware In 2021",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+  },
+  {
+    id: "3",
+    imgSrc: "/images/blog/blog-3.png",
+    date: "February 9, 2021",
+    title: "Top Cryptocurrency Mining Hardware In 2021",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+  },
+];

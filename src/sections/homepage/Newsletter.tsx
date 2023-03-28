@@ -2,19 +2,19 @@ import React from "react";
 
 export const Newsletter = () => {
   return (
-    <div className="h-20 bg-btn-secondary">
+    <div className="h-24 bg-btn-secondary">
       <div className="custom-container mx-auto flex h-full items-center justify-between">
-        <h2 className="text-lg font-semibold text-white">
+        <h2 className="text-2xl font-semibold text-white">
           Sign up for our exclusive email newsletter
         </h2>
         <div className="flex items-center gap-3">
           <input
             type="text"
             placeholder="Enter Email"
-            className="rounded-3xl px-5 py-1"
+            className="rounded-3xl px-5 py-1.5"
           />
           <button
-            className={`flex w-32 items-center justify-center gap-2 rounded-3xl  bg-btn-primary py-1.5 `}
+            className={`flex w-32 items-center justify-center gap-2 rounded-3xl  bg-btn-primary py-2 `}
           >
             <span className="font-semibold">Submit</span>
             <svg
