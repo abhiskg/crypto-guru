@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  width: max(1443px, 95%);
+.custom-container {
+  width: min(1400px, 95%);
 }
