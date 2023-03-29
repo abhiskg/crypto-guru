@@ -3,10 +3,10 @@ import { Button } from "~/components/buttons/Button";
 import { BlogCard } from "~/components/cards/BlogCard";
 import { blogData } from "~/utils/data";
 
-export const Blog = () => {
+const Blog = () => {
   return (
     <section className="custom-container mx-auto my-16">
-      <h1 className="text-center text-3xl font-semibold">FROM OUR BLOG</h1>
+      <h2 className="text-center text-3xl font-semibold">FROM OUR BLOG</h2>
 
       <div className="mt-1 flex justify-center text-btn-secondary">
         <svg
@@ -43,3 +43,5 @@ export const Blog = () => {
     </section>
   );
 };
+
+export default Blog;

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const BestSellerBrands = () => {
+const BestSellerBrands = () => {
   return (
     <section className="custom-container mx-auto py-14">
       <h2 className="text-center text-3xl font-semibold">BEST SELLER BRANDS</h2>
@@ -53,3 +53,5 @@ export const BestSellerBrands = () => {
     </section>
   );
 };
+
+export default BestSellerBrands;

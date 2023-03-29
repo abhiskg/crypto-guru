@@ -1,4 +1,4 @@
-export const Contact = () => {
+const Contact = () => {
   return (
     <section className="bg-bgPrimary py-16">
       <div className="custom-container mx-auto">
@@ -233,3 +233,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+export default Contact;

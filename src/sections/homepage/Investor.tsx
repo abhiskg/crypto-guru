@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const Investor = () => {
+const Investor = () => {
   return (
     <div className="custom-container mx-auto flex items-center justify-between py-28">
       <div className="max-w-xl text-7xl font-semibold">
@@ -35,3 +35,5 @@ export const Investor = () => {
     </div>
   );
 };
+
+export default Investor;

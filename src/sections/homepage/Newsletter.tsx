@@ -1,6 +1,6 @@
-import React from "react";
 
-export const Newsletter = () => {
+
+const Newsletter = () => {
   return (
     <section className="h-24 bg-btn-secondary">
       <div className="custom-container mx-auto flex h-full items-center justify-between">
@@ -39,3 +39,5 @@ export const Newsletter = () => {
     </section>
   );
 };
+
+export default Newsletter

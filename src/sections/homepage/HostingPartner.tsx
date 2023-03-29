@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const Hosting = () => {
+const HostingPartner = () => {
   return (
     <div className="bg-bgPrimary py-20">
       <h2 className="text-center text-2xl font-semibold">HOSTING PARTNER</h2>
@@ -28,3 +28,5 @@ export const Hosting = () => {
     </div>
   );
 };
+
+export default HostingPartner;

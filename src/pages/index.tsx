@@ -1,13 +1,13 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { BestSellerBrands } from "~/sections/homepage/BestSellerBrands";
-import { Blog } from "~/sections/homepage/Blog";
+import BestSellerBrands from "~/sections/homepage/BestSellerBrands";
+import Blog from "~/sections/homepage/Blog";
 import Brand from "~/sections/homepage/Brand";
-import { Contact } from "~/sections/homepage/Contact";
+import Contact from "~/sections/homepage/Contact";
 import Hero from "~/sections/homepage/Hero";
-import { Hosting } from "~/sections/homepage/Hosting";
-import { Investor } from "~/sections/homepage/Investor";
-import { Newsletter } from "~/sections/homepage/Newsletter";
+import HostingPartner from "~/sections/homepage/HostingPartner";
+import Investor from "~/sections/homepage/Investor";
+import Newsletter from "~/sections/homepage/Newsletter";
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +20,8 @@ const Home: NextPage = () => {
       <main>
         <Hero />
         <Brand />
-        {/* <Investor /> */}
-        <Hosting />
+        <Investor />
+        <HostingPartner />
         <BestSellerBrands />
         <Contact />
         <Blog />
