@@ -27,7 +27,7 @@ export default function ProfitableMiners() {
         </div>
 
         {/* Products */}
-        <div className="my-8 grid grid-cols-1 gap-4 xs:grid-cols-2 sm:px-10  md:px-28 lg:grid-cols-4 lg:px-0 xl:px-20">
+        <div className="my-8 grid grid-cols-1 gap-4 px-5 xs:grid-cols-2 sm:px-10  md:px-28 lg:grid-cols-4 lg:px-0 xl:px-20">
           {productData.map(({ productName, id, imgSrc, price }) => (
             <ProductCard
               key={id}

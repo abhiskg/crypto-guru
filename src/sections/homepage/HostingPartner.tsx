@@ -29,11 +29,11 @@ const HostingPartner = () => {
           height={460}
         />
         <div className="lg:max-w-md ">
-          <h3 className="flex gap-2 text-3xl font-extrabold sm:text-4xl md:text-5xl lg:block ">
+          <h3 className="flex justify-center gap-2 text-3xl font-extrabold sm:text-4xl md:text-5xl lg:block ">
             <div className="text-btn-secondary">CRYPTO</div>
             <div className="text-primary"> GURU DEALS</div>
           </h3>
-          <p className="mt-3 text-gray-600">
+          <p className="mt-3 text-center text-gray-600 lg:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, lorem ipsum dolor

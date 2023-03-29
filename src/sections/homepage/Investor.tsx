@@ -3,7 +3,7 @@ import Image from "next/image";
 const Investor = () => {
   return (
     <div className="custom-container mx-auto flex flex-col items-center justify-around gap-5 py-16 md:flex-row md:gap-0">
-      <div className="text-center text-4xl font-semibold sm:text-5xl md:max-w-md md:text-left lg:max-w-xl lg:text-6xl">
+      <div className="text-center text-3xl font-semibold xs:text-4xl sm:text-5xl md:max-w-md md:text-left lg:max-w-xl lg:text-6xl">
         Built by{" "}
         <span className="bg-gradient-to-r from-btn-primary to-btn-secondary bg-clip-text text-transparent ">
           experts

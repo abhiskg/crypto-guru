@@ -2,7 +2,7 @@ const Newsletter = () => {
   return (
     <section className="bg-btn-secondary py-8">
       <div className="custom-container mx-auto flex h-full flex-col items-center justify-between gap-5 md:flex-row">
-        <h2 className="text-center text-2xl font-semibold text-white sm:text-left">
+        <h2 className="text-left text-2xl font-semibold text-white xs:text-center sm:text-left">
           Sign up for our exclusive email newsletter
         </h2>
         <div className="flex items-center gap-3">

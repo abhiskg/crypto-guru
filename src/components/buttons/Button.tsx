@@ -5,7 +5,7 @@ type ButtonProps = {
 export const Button = ({ title }: ButtonProps) => {
   return (
     <button
-      className={`flex w-60 items-center justify-center gap-4 rounded-3xl border bg-btn-primary py-3 shadow `}
+      className={`flex w-60 items-center justify-center gap-4 rounded-3xl border bg-btn-primary py-3 shadow hover:bg-btn-secondary hover:shadow-md `}
     >
       <span className="font-semibold">{title}</span>
       <svg
