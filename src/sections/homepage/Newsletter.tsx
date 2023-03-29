@@ -2,7 +2,7 @@ import React from "react";
 
 export const Newsletter = () => {
   return (
-    <div className="h-24 bg-btn-secondary">
+    <section className="h-24 bg-btn-secondary">
       <div className="custom-container mx-auto flex h-full items-center justify-between">
         <h2 className="text-2xl font-semibold text-white">
           Sign up for our exclusive email newsletter
@@ -36,6 +36,6 @@ export const Newsletter = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

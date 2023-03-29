@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import { Blog } from "~/sections/homepage/Blog";
 import Brand from "~/sections/homepage/Brand";
+import { Contact } from "~/sections/homepage/Contact";
 import Hero from "~/sections/homepage/Hero";
 import { Hosting } from "~/sections/homepage/Hosting";
 import { Investor } from "~/sections/homepage/Investor";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Brand />
         <Investor />
         <Hosting />
+        <Contact />
         <Blog />
         <Newsletter />
       </main>

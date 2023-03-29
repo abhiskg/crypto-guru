@@ -5,7 +5,7 @@ import { blogData } from "~/utils/data";
 
 export const Blog = () => {
   return (
-    <div className="custom-container mx-auto my-16">
+    <section className="custom-container mx-auto my-16">
       <h1 className="text-center text-3xl font-semibold">FROM OUR BLOG</h1>
 
       <div className="mt-1 flex justify-center text-btn-secondary">
@@ -16,9 +16,9 @@ export const Blog = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         >
           <line x1="12" y1="5" x2="12" y2="19"></line>
           <polyline points="19 12 12 19 5 12"></polyline>
@@ -40,6 +40,6 @@ export const Blog = () => {
       <div className=" flex justify-center">
         <Button title="View All Products" />
       </div>
-    </div>
+    </section>
   );
 };

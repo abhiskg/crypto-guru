@@ -1,6 +1,6 @@
 import { type AppType } from "next/dist/shared/lib/utils";
 import { MainLayout } from "~/layout/MainLayout";
-import { Rubik } from "@next/font/google";
+import { Rubik } from "next/font/google";
 
 import "~/styles/globals.css";
 
