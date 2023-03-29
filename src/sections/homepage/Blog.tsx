@@ -25,7 +25,7 @@ const Blog = () => {
         </svg>
       </div>
 
-      <div className="my-10 flex justify-center gap-5">
+      <div className="my-10 flex flex-wrap justify-center gap-5 lg:flex-nowrap">
         {blogData.map(({ date, description, id, imgSrc, title }) => (
           <BlogCard
             key={id}

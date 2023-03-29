@@ -1,10 +1,8 @@
-
-
 const Newsletter = () => {
   return (
-    <section className="h-24 bg-btn-secondary">
-      <div className="custom-container mx-auto flex h-full items-center justify-between">
-        <h2 className="text-2xl font-semibold text-white">
+    <section className="bg-btn-secondary py-8">
+      <div className="custom-container mx-auto flex h-full flex-col items-center justify-between gap-5 md:flex-row">
+        <h2 className="text-center text-2xl font-semibold text-white sm:text-left">
           Sign up for our exclusive email newsletter
         </h2>
         <div className="flex items-center gap-3">
@@ -40,4 +38,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter
+export default Newsletter;

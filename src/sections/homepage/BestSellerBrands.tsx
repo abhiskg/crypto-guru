@@ -23,7 +23,7 @@ const BestSellerBrands = () => {
       </div>
 
       {/* Brands Section */}
-      <div className="relative mt-5 flex items-center justify-center gap-5">
+      <div className="relative mt-5 flex flex-wrap items-center justify-center gap-5 lg:flex-nowrap">
         <Image
           src="/images/logo/binance-logo.png"
           alt="Binance Logo"

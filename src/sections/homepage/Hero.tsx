@@ -3,16 +3,16 @@ import { Button } from "~/components/buttons/Button";
 function Hero() {
   return (
     <section className="bg-bgPrimary pt-24 pb-32">
-      <div className="custom-container mx-auto flex flex-col justify-center lg:flex-row lg:justify-between ">
-        <div className="max-w-lg">
-          <h1 className=" text-5xl  font-bold text-primary sm:text-8xl">
+      <div className="custom-container mx-auto flex flex-col items-center justify-center gap-32 lg:flex-row lg:justify-between lg:gap-0">
+        <div className="flex flex-col items-center lg:max-w-lg lg:items-start ">
+          <h1 className=" flex flex-wrap justify-center text-5xl font-bold text-primary md:text-6xl lg:block lg:text-7xl xl:text-8xl">
             Start
             <span className="mx-2 bg-gradient-to-r from-btn-primary to-btn-secondary bg-clip-text text-transparent ">
               Mining
             </span>
             <div>Today!</div>
           </h1>
-          <p className="mt-6 mb-8 text-lg sm:mb-12">
+          <p className="mt-6 mb-8 text-center text-lg sm:mb-12 lg:text-left">
             Operated by a team of professionals with an experience into
             Blockchain Management, E-Commerce and Cryptocurrency Mining.
           </p>
@@ -20,11 +20,10 @@ function Hero() {
         </div>
         <div className="xl:h-112 2xl:h-128 relative mt-8 flex h-72 items-center justify-center p-6 sm:h-80 lg:mt-0 lg:h-96">
           <svg
-            width="514"
-            height="514"
             viewBox="0 0 514 514"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="h-[400px] w-[400px] xl:h-[514px] xl:w-[514px]"
           >
             <ellipse
               cx="257"
@@ -53,11 +52,10 @@ function Hero() {
           {/* Gpu */}
           <div className="absolute">
             <svg
-              width="500"
-              height="545"
               viewBox="0 0 655 745"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="h-[425px] w-[400px] xl:h-[545px] xl:w-[500px]"
             >
               <path
                 opacity="0.3"

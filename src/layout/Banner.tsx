@@ -1,7 +1,7 @@
 function Banner() {
   return (
     <section className="h-16 bg-primary">
-      <div className="custom-container mx-auto flex h-full items-center gap-5 text-white">
+      <div className="custom-container mx-auto flex h-full items-center gap-2 text-sm text-white xs:gap-5 xs:text-base">
         <div className=" flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

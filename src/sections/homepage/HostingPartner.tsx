@@ -21,15 +21,15 @@ const HostingPartner = () => {
         </svg>
       </div>
 
-      <div className="custom-container mx-auto mt-7 flex items-center justify-center gap-10">
+      <div className="custom-container mx-auto mt-7 flex flex-col items-center justify-center gap-10 lg:flex-row">
         <Image
           src="/images/hosting-partner.png"
           alt="Bitfinex Logo"
           width={516}
           height={460}
         />
-        <div className="max-w-md">
-          <h3 className="text-5xl font-extrabold">
+        <div className="lg:max-w-md ">
+          <h3 className="flex gap-2 text-3xl font-extrabold sm:text-4xl md:text-5xl lg:block ">
             <div className="text-btn-secondary">CRYPTO</div>
             <div className="text-primary"> GURU DEALS</div>
           </h3>

@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Investor = () => {
   return (
-    <div className="custom-container mx-auto flex items-center justify-around py-16">
-      <div className="max-w-xl text-6xl font-semibold">
+    <div className="custom-container mx-auto flex flex-col items-center justify-around gap-5 py-16 md:flex-row md:gap-0">
+      <div className="text-center text-4xl font-semibold sm:text-5xl md:max-w-md md:text-left lg:max-w-xl lg:text-6xl">
         Built by{" "}
         <span className="bg-gradient-to-r from-btn-primary to-btn-secondary bg-clip-text text-transparent ">
           experts
         </span>{" "}
         and backed by investors
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-5">
+      <div className="grid grid-cols-2 grid-rows-2 gap-2 lg:gap-5">
         <Image
           src="/images/logo/binance-logo.png"
           alt="Binance Logo"

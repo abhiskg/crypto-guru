@@ -25,7 +25,7 @@ function ShopByBrand() {
       </div>
 
       {/* Brand Models */}
-      <div className="my-10 grid grid-cols-6 gap-4">
+      <div className="my-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
         {brandData.map(({ brandName, id, imgSrc }) => (
           <BrandCard
             key={id}
@@ -36,7 +36,7 @@ function ShopByBrand() {
         ))}
       </div>
       {/* Products */}
-      <div className="grid grid-cols-4 gap-4 px-20">
+      <div className="my-8 grid grid-cols-1 gap-4 xs:grid-cols-2 sm:px-10  md:px-28 lg:grid-cols-4 lg:px-0 xl:px-20">
         {productData.map(({ productName, id, imgSrc, price }) => (
           <ProductCard
             key={id}

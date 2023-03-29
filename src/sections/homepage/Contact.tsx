@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
 
         {/* Main Section */}
-        <div className=" mt-10 flex items-center justify-center gap-16">
+        <div className=" mt-10 flex flex-col items-center justify-center gap-16 lg:flex-row">
           {/* Form */}
           <div className="relative z-20  w-full max-w-md space-y-3 ">
             <div className="rounded-xl bg-white p-8  shadow">
