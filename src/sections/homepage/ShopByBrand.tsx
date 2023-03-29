@@ -6,9 +6,7 @@ import { brandData, productData } from "~/utils/data";
 function ShopByBrand() {
   return (
     <div className="custom-container mx-auto py-14">
-      <h2 className="text-center text-3xl font-semibold">
-        MORE PROFITABLE MINERS
-      </h2>
+      <h2 className="text-center text-3xl font-semibold">SHOP BY BRAND</h2>
       <div className="mt-1 flex justify-center text-btn-secondary">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +36,7 @@ function ShopByBrand() {
         ))}
       </div>
       {/* Products */}
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4 px-20">
         {productData.map(({ productName, id, imgSrc, price }) => (
           <ProductCard
             key={id}
