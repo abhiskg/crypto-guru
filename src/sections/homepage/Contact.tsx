@@ -2,9 +2,9 @@ const Contact = () => {
   return (
     <section className="bg-bgPrimary py-16">
       <div className="custom-container mx-auto">
-        <h1 className="text-center text-3xl font-semibold">
+        <h2 className="text-center text-3xl font-semibold">
           GET IN TOUCH WITH US
-        </h1>
+        </h2>
 
         <div className="mt-1 flex justify-center text-btn-secondary">
           <svg
