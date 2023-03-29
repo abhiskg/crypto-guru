@@ -38,7 +38,7 @@ const Blog = () => {
         ))}
       </div>
       <div className=" flex justify-center">
-        <Button title="View All Products" />
+        <Button title="View All Blogs" />
       </div>
     </section>
   );

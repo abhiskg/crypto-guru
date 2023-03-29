@@ -2,12 +2,13 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import BestSellerBrands from "~/sections/homepage/BestSellerBrands";
 import Blog from "~/sections/homepage/Blog";
-import Brand from "~/sections/homepage/Brand";
 import Contact from "~/sections/homepage/Contact";
 import Hero from "~/sections/homepage/Hero";
 import HostingPartner from "~/sections/homepage/HostingPartner";
 import Investor from "~/sections/homepage/Investor";
 import Newsletter from "~/sections/homepage/Newsletter";
+import ProfitableMiners from "~/sections/homepage/ProfitableMiners";
+import ShopByBrand from "~/sections/homepage/ShopByBrand";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,8 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <Hero />
-        <Brand />
+        <ShopByBrand />
+        <ProfitableMiners />
         <Investor />
         <HostingPartner />
         <BestSellerBrands />
