@@ -1,6 +1,3 @@
-import Image from "next/image";
-import React from "react";
-
 export const Contact = () => {
   return (
     <section className="bg-bgPrimary py-16">
@@ -42,7 +39,7 @@ export const Contact = () => {
                 <div className="space-y-1 ">
                   <label
                     htmlFor="username"
-                    className="block after:ml-0.5 after:text-red-500 after:content-['*']"
+                    className="block font-medium after:ml-0.5 after:text-red-500 after:content-['*']"
                   >
                     Complete Name
                   </label>
@@ -57,7 +54,7 @@ export const Contact = () => {
                 <div className="space-y-1 ">
                   <label
                     htmlFor="email"
-                    className="block after:ml-0.5 after:text-red-500 after:content-['*']"
+                    className="block font-medium after:ml-0.5 after:text-red-500 after:content-['*']"
                   >
                     Email Address
                   </label>
@@ -71,7 +68,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <label>
-                    <span className="mb-1 block after:ml-0.5 after:text-red-500 after:content-['*']">
+                    <span className="mb-1 block font-medium after:ml-0.5 after:text-red-500 after:content-['*']">
                       Message
                     </span>
                     <textarea

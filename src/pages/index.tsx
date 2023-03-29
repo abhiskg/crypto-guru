@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import { BestSellerBrands } from "~/sections/homepage/BestSellerBrands";
 import { Blog } from "~/sections/homepage/Blog";
 import Brand from "~/sections/homepage/Brand";
 import { Contact } from "~/sections/homepage/Contact";
@@ -19,8 +20,9 @@ const Home: NextPage = () => {
       <main>
         <Hero />
         <Brand />
-        <Investor />
+        {/* <Investor /> */}
         <Hosting />
+        <BestSellerBrands />
         <Contact />
         <Blog />
         <Newsletter />
