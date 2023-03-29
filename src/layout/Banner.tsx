@@ -19,7 +19,7 @@ function Banner() {
           <span>+86-13530796464 </span>
         </div>
 
-        <div className=" flex items-center gap-2">
+        <div className=" hidden gap-2 md:flex md:items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="22"
